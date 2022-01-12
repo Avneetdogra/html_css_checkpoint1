@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(7,21,76);
+    padding: 20px;
+}
+h1 a{
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(153,216,202);
+    margin: 0 auto;
+    border: 20px solid rgb(88,115,226) ;
+    outline: solid black;
+    box-shadow:0 0 0 20px rgb(144,255,169);
+}
+.marker-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(153,216,202);
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align:middle;
+    margin-right: 12px;
+}
+.content{
+    background-color: rgb(153,216,202);
+}
+.margin{
+    background-color: rgb(13,20,48);
+}
+.border{
+    background-color: rgb(144,255,169);
+}
+.padding{
+    background-color: rgb(88,115,226);
+}
+
+hr{
+    width: 500px;
+    border-style: dotted;
+}
+.container{
+    width: 660px;
+    border: 2px solid gray;
+    margin: 24px auto;
+    font-size: 0;
+}
+.child-box{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color:gray;
+    display: inline-block;
+}
+.child-box2{
+    border: 2px solid;
+
+}
+.pic01{
+    width: 500px;
+    height: 400px;
+    
+}
+img {
+    width: 100%;
+}
+ 
+.container-box{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box1-inline-block{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+.container-box1{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box2-inline-block{
+    display: inline-block;
+    width: 40%;
+}
+
+.box3-inline-block{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+
+
+
